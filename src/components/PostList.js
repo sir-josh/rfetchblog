@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react'
 
-const PostList = () => {
-  return (
-    <div>PostList</div>
-  )
+class PostList extends Component {
+  render() {
+    return (
+      <div>PostList</div>
+    )
+  }
 }
 
 export default PostList;
